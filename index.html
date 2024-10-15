@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="head">
+        <button class="btn again">Again!</button>
+        <h2>(Between 1 to 20 )</h2>
+      </div>
+      <h1>Guess My Number!</h1>
+      <div class="box number">?</div>
+      <div class="line"></div>
+      <div class="main-game">
+        <div style="display: flex; flex-direction: column; gap: 10px">
+          <input class="guess" type="number" />
+          <button class="btn check">Check</button>
+        </div>
+        <div>
+          <h2 class="message">Start Guessing...</h2>
+          <h2>Score: <span class="score">20</span></h2>
+          <h2>Highscore: <span class="highScore">0</span></h2>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>

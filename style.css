@@ -1,0 +1,57 @@
+@font-face {
+  src: url("/FORTE.TTF");
+  font-family: forte;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgba(27, 27, 27, 0.831);
+  color: white;
+  font-family: forte;
+}
+h1 {
+  text-align: center;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.btn {
+  font-family: forte;
+  width: 90px;
+  height: 50px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.box {
+  width: 100px;
+  height: 60px;
+  background-color: white;
+  position: relative;
+  left: 48%;
+  top: 30px;
+  color: black;
+  text-align: center;
+  font-size: 42px;
+}
+.line {
+  height: 8px;
+  background-color: white;
+}
+.main-game {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  padding-top: 100px;
+}
+input {
+  font-family: forte;
+  width: 130px;
+  height: 50px;
+  font-size: 32px;
+  padding: 0 5px;
+}
